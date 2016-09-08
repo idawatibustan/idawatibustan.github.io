@@ -1,0 +1,59 @@
+body{
+	height:100%;
+	margin: 0;
+	text-align: centre;
+	width:100%;
+}
+
+div.name {
+	width: 640px;
+	padding: 30px 10px 60px 10px;
+	margin: 120px;
+	border: 8px solid lightgrey;
+	outline: 1px solid lightgrey;
+	outline-offset: 2px;
+	font-family: 'Segoe UI Light', 'Helvetica Neue', Helvetica, sans-serif;
+	text-align: center;
+}
+
+h1 {
+	font-size: 36px;
+	color: grey;
+	letter-spacing: 16px;
+	transform: scaleX(1.1);
+	vertical-align: middle;
+}
+
+h3 {
+	font-size: 16px;
+	color: grey;
+	letter-spacing: 8px;
+	transform: scaleX(1.1);
+	vertical-align: middle;
+}
+
+div.content1{
+	background: darkgrey;
+	padding: 100px;
+	margin: 0px;
+}
+
+h2 {
+	font-size: 40px;
+	font-family: 'Segoe UI Light', 'Helvetica Neue', Helvetica, sans-serif;
+	color: lightgrey;
+	align-content: center;
+	text-align: center;
+	letter-spacing: 10px;
+	transform: scaleX(1.1);
+}
+
+h4 {
+	font-family: 'Raleway', 'Roboto', sans-serif;
+	color: Silver;
+	align-content: center;
+}
+
+.title {
+	
+}
