@@ -5,15 +5,22 @@ body{
 	width:100%;
 }
 
+div.top {
+	height:100%;
+	padding: 160px 0px 160px 0px;
+	background: url("bg-2.jpg") no-repeat center;
+	background-size: 100%;
+}
+
 div.name {
 	width: 640px;
 	padding: 30px 10px 60px 10px;
-	margin: 120px;
 	border: 8px solid lightgrey;
 	outline: 1px solid lightgrey;
-	outline-offset: 2px;
+	outline-offset: 3px;
 	font-family: 'Segoe UI Light', 'Helvetica Neue', Helvetica, sans-serif;
 	text-align: center;
+	box-shadow: -1px 3px 4px 0px silver;
 }
 
 h1 {
