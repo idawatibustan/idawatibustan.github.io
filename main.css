@@ -5,14 +5,14 @@ body{
 	width:100%;
 }
 
-div.top {
+.top {
 	height:100%;
 	padding: 160px 0px 160px 0px;
 	background: url("bg-2.jpg") no-repeat center;
 	background-size: 100%;
 }
 
-div.name {
+.name {
 	width: 640px;
 	padding: 30px 10px 60px 10px;
 	border: 6px solid #202020;
@@ -39,13 +39,14 @@ h3 {
 	vertical-align: middle;
 }
 
-div.content1{
+.content1{
 	background: darkgrey;
 	padding: 100px;
 	margin: 0px;
 }
 
 h2 {
+	margin: 0px;
 	font-size: 40px;
 	font-family: 'Segoe UI Light', 'Helvetica Neue', Helvetica, sans-serif;
 	color: lightgrey;
@@ -55,12 +56,8 @@ h2 {
 	transform: scaleX(1.1);
 }
 
-h4 {
-	font-family: 'Raleway', 'Roboto', sans-serif;
-	color: Silver;
-	align-content: center;
-}
-
-.title {
-	
+.bottom {
+	height: 100px;
+	margin: 0px;
+	background: #404040;
 }
