@@ -15,8 +15,8 @@ div.top {
 div.name {
 	width: 640px;
 	padding: 30px 10px 60px 10px;
-	border: 8px solid lightgrey;
-	outline: 1px solid lightgrey;
+	border: 6px solid #202020;
+	outline: 1px solid #202020;
 	outline-offset: 3px;
 	font-family: 'Segoe UI Light', 'Helvetica Neue', Helvetica, sans-serif;
 	text-align: center;
@@ -25,7 +25,7 @@ div.name {
 
 h1 {
 	font-size: 36px;
-	color: grey;
+	color: #101010;
 	letter-spacing: 16px;
 	transform: scaleX(1.1);
 	vertical-align: middle;
@@ -33,7 +33,7 @@ h1 {
 
 h3 {
 	font-size: 16px;
-	color: grey;
+	color: #101010;
 	letter-spacing: 8px;
 	transform: scaleX(1.1);
 	vertical-align: middle;
