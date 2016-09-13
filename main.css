@@ -7,6 +7,7 @@ body{
 
 .top {
 	height:100%;
+	width:100%;
 	padding: 160px 0px 160px 0px;
 	background: url("bg-2.jpg") no-repeat center;
 	background-size: 100%;
@@ -57,7 +58,28 @@ h2 {
 }
 
 .bottom {
-	height: 100px;
-	margin: 0px;
+	position: fixed;
+	bottom: 0;
+	/*display: inline-table;*/
+	height: 3em;
+	width:100%;
+	margin: 0;
+	padding: 1.1em;
 	background: #404040;
+	text-align: center;
+	float: left;
+}
+
+.fa {
+	color: #F2F2F2;
+	font-size: 2.5em;
+	margin: 0 5% 0 5%;
+}
+
+p.cv {
+	position: relative;
+	width: 2em;
+	color: #F2F2F2;
+	font-size: 1em;
+	word-wrap: normal;
 }
