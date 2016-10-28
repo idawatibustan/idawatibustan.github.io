@@ -3,14 +3,14 @@ body{
 	margin: 0;
 	text-align: centre;
 	width:100%;
+	overflow-x: hidden;
 }
 
 .top {
 	height:100%;
-	width:100%;
 	padding: 160px 0px 160px 0px;
-	background: url("bg-2.jpg") no-repeat center;
-	background-size: 100%;
+	background: url("assets/bg-2.jpg") no-repeat center;
+	background-size: cover;
 }
 
 .name {
@@ -41,9 +41,37 @@ h3 {
 }
 
 .content1{
-	background: darkgrey;
+	background-color: darkgrey;
 	padding: 100px;
 	margin: 0px;
+}
+
+iframe {
+	align-content: center;
+	padding: 20px 0 20px 20px;
+	border:none;
+	overflow:hidden;
+	float:left;
+	height: 550px;
+}
+
+.featured {
+	display: hidden;
+	background: url("https://static.pexels.com/photos/137219/pexels-photo-137219.jpeg") no-repeat center rgba(250, 250, 255, .92);
+	background-size: cover;
+	background-blend-mode: overlay;
+	align-items: center;
+	height: 0px;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+
+.sideslider {
+	width: 3125px;
+	height: inherit;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	float: left;
 }
 
 h2 {
@@ -58,28 +86,37 @@ h2 {
 }
 
 .bottom {
-	position: fixed;
+	position: static;
 	bottom: 0;
-	/*display: inline-table;*/
-	height: 3em;
-	width:100%;
 	margin: 0;
-	padding: 1.1em;
+	padding: 1.2em;
 	background: #404040;
-	text-align: center;
-	float: left;
+}
+
+.bottom h3 {
+	font-size:0.8em;
+	font-family: 'Segoe UI Light', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #F2F2F2;
+	padding-bottom: 0px;
+	margin-bottom: 0;
 }
 
 .fa {
+	width: 1.4em;
+	height:1.4em;
 	color: #F2F2F2;
-	font-size: 2.5em;
+	font-size: 1.2em;
 	margin: 0 5% 0 5%;
+	border: 0.05em solid #A0A0A0;
+	border-radius: 1.4em;
+	padding: 0.6em;
 }
 
-p.cv {
-	position: relative;
-	width: 2em;
-	color: #F2F2F2;
-	font-size: 1em;
-	word-wrap: normal;
+.fa:before {
+    vertical-align: middle;
+    align-self: center;
+}
+
+.fa-file-text:before {
+	font-size: 0.9em;
 }
